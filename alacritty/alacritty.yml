@@ -1,0 +1,15 @@
+window:
+  padding:
+    x: 16
+    y: 16
+  opacity: 0.8
+
+font:
+  normal:
+    family: JetbrainsMono Nerd Font Mono
+    style: Regular
+  size: 11.5
+
+      
+selection:
+  save_to_clipboard: true
