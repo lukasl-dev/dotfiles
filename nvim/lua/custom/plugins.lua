@@ -18,6 +18,10 @@ local plugins = {
       ensure_installed = {
         "gopls",
         "pyright",
+        "typescript-language-server",
+        "astro-language-server",
+        "html-languageserver",
+        "emmet-ls",
       },
     },
   },
