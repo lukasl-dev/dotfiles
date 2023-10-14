@@ -7,3 +7,7 @@ vim.opt.undofile = false
 -- Enable relative line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
+
+-- Use system clipboard
+vim.opt.clipboard = "unnamedplus"
+
