@@ -13,6 +13,11 @@ local plugins = {
   },
 
   {
+    "lukasl-dev/go-list.nvim",
+    config = function() end
+  },
+
+  {
     "NvChad/nvterm",
     config = function ()
       require("nvterm").setup{
