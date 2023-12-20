@@ -55,3 +55,4 @@ lspconfig.gopls.setup {
   },
 }
 
+lspconfig.prismals.setup {}
