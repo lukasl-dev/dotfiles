@@ -55,4 +55,19 @@ lspconfig.gopls.setup {
   },
 }
 
-lspconfig.prismals.setup {}
+lspconfig.prismals.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+
+lspconfig.biome.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+
+lspconfig.tailwindcss.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+
+lspconfig.graphql.setup {}
