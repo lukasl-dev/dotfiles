@@ -1,0 +1,16 @@
+[font]
+size = 11.5
+
+[font.normal]
+family = "JetbrainsMono Nerd Font Mono"
+style = "Regular"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+opacity = 0.8
+
+[window.padding]
+x = 16
+y = 16
