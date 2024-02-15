@@ -14,8 +14,6 @@
     ~/.config/alacritty/alacritty.toml: alacritty/alacritty.toml
 
 # jetbrains
-- clean:
-    - ~/.ideavimrc
 - link:
     ~/.ideavimrc: jetbrains/.ideavimrc
 
@@ -24,3 +22,10 @@
     - ~/.config/nvim/lua/custom
 - link:
     ~/.config/nvim/lua/custom: nvim/lua/custom
+
+# scoop
+- scoop:
+    buckets:
+      - extras
+      - name: nerd-fonts
+        repo: https://github.com/matthewjberger/scoop-nerd-fonts

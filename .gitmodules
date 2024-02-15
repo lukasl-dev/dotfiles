@@ -2,6 +2,15 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule ".plugins/dotbot-scoop"]
+	path = .plugins/dotbot-scoop
+	url = https://github.com/JamJar00/dotbot-scoop.git
+[submodule ".plugins/dotbot-yay"]
+	path = .plugins/dotbot-yay
+	url = https://github.com/oxson/dotbot-yay
+[submodule ".plugins/dotbot-windows"]
+	path = .plugins/dotbot-windows
+	url = https://github.com/kurtmckee/dotbot-windows.git
 [submodule ".plugins/dotbot-golang"]
 	path = .plugins/dotbot-golang
 	url = https://github.com/delicb/dotbot-golang
