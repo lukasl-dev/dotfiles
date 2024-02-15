@@ -20,3 +20,6 @@
 [submodule ".plugins/dotbot-rust"]
 	path = .plugins/dotbot-rust
 	url = https://github.com/alexcormier/dotbot-rust
+[submodule ".plugins/dotbot-includes"]
+	path = .plugins/dotbot-includes
+	url = https://github.com/vanduc2514/dotbot-includes/
