@@ -31,3 +31,7 @@
 	path = .plugins/dotbot-includes
 	url = https://github.com/vanduc2514/dotbot-includes/
 	ignore = dirty
+[submodule ".plugins/dotbot-pacaur"]
+	path = .plugins/dotbot-pacaur
+	url = https://github.com/ajlende/dotbot-pacaur
+	ignore = dirty
