@@ -22,3 +22,11 @@
     - ~/.config/nvim/lua/custom
 - link:
     ~/.config/nvim/lua/custom: nvim/lua/custom
+
+# yay
+- clean:
+    - /tmp/yay
+- shell:
+    - pacman -S --needed git base-devel
+    - git clone https://aur.archlinux.org/yay.git /tmp/yay
+    - cd /tmp/yay/ && makepkg -si
