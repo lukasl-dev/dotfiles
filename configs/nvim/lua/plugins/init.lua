@@ -188,7 +188,20 @@ return {
   {
     "stevearc/oil.nvim",
     event = "BufWinEnter",
-    opts = {},
+    opts = {
+      columns = {
+        "icon",
+        "permissions",
+        "size",
+      },
+    },
     dependencies = { "nvim-tree/nvim-web-devicons" },
+  },
+
+  {
+    "lewis6991/gitsigns.nvim",
+    opts = {
+      current_line_blame = true,
+    },
   },
 }

@@ -23,11 +23,7 @@ unmap("n", "<leader>e")
 -- oil
 -- ====================================================================
 
-map("n", ".", "<CMD>Oil .<CR>", { desc = "open root directory" })
 map("n", "-", "<CMD>Oil<CR>", { desc = "open parent directory" })
-
--- map("n", "-", "<Plug>(oil-repeat)", { desc = "oil repeat" })
--- map("n", "<leader>e", "<cmd>:Oil . --float<CR>", { desc = "oil float" })
 
 -- ====================================================================
 -- telescope
