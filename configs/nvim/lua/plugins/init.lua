@@ -204,4 +204,21 @@ return {
       current_line_blame = true,
     },
   },
+
+  {
+    "lervag/vimtex",
+    lazy = false, -- we don't want to lazy load VimTeX
+    config = function()
+      -- Use LuaLateX for vimtex
+      vim.g.vimtex_compiler_latexmk = {
+        options = {
+          "-lualatex", -- TOOD: should be dependent on the directory
+          "-silent",
+          "-synctex=1",
+          "-shell-escape",
+          "-interaction=nonstopmode",
+        },
+      }
+    end,
+  },
 }
