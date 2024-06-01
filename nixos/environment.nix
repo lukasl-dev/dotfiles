@@ -9,6 +9,8 @@
     XDG_CONFIG_HOME = "$HOME/.config";
     XDG_DATA_HOME = "$HOME/.local/share";
     XDG_STATE_HOME = "$HOME/.local/state";
+
+    LD_LIBRARY_PATH = [ "/run/current-system/sw/share/nix-ld/lib:$NIX_LD_LIBRARY_PATH" ];
   };
 
   environment.variables = {

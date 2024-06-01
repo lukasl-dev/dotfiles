@@ -52,8 +52,6 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    libGL
-
     git
     zig
     obsidian
@@ -82,6 +80,7 @@
     speedtest-cli
     btop
     fastfetch
+    minecraft
 
     # GTK Themes
     whitesur-gtk-theme
@@ -153,6 +152,7 @@
 
     libraries = with pkgs; [
       # zlib
+      libGL
     ];
   };
 }
