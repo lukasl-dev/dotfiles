@@ -16,6 +16,8 @@ config.default_prog = platform.dependent {
   windows = { "powershell" },
 }
 
+config.enable_wayland = true;
+
 -- ======================================================================
 --
 -- Appearance
