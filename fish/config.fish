@@ -95,11 +95,11 @@ end
 # Commands for zoxide. Disable these using --no-cmd.
 #
 
-abbr --erase z &>/dev/null
-alias z=__zoxide_z
+abbr --erase cd &>/dev/null
+alias cd=__zoxide_z
 
-abbr --erase zi &>/dev/null
-alias zi=__zoxide_zi
+abbr --erase cdi &>/dev/null
+alias cdi=__zoxide_zi
 
 # =============================================================================
 #
