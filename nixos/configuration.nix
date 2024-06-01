@@ -4,6 +4,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./bootloader.nix
       ./networking.nix
       ./users.nix
       ./opengl.nix
@@ -14,9 +15,6 @@
       ./docker.nix
       ./fonts.nix
     ];
-
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
 
   time.timeZone = "Europe/Vienna";
   i18n = {
