@@ -63,6 +63,7 @@
 
     # gtk themes
     catppuccin-gtk
+    gnome.adwaita-icon-theme
 
     # gnome extensions
     gnomeExtensions.runcat
@@ -77,6 +78,8 @@
     tmuxPlugins.catppuccin
 
     minecraft
+    lutris
+    wineWowPackages.waylandFull
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
