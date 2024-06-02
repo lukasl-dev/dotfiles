@@ -9,6 +9,7 @@
       ./xdg.nix
       ./bootloader.nix
       ./networking.nix
+      ./services.nix
       ./users.nix
       ./opengl.nix
       ./nvidia.nix
@@ -66,6 +67,7 @@
     # gnome extensions
     gnomeExtensions.runcat
     gnomeExtensions.appindicator
+    gnomeExtensions.pano
     gnome.gnome-tweaks
 
     # fish plugins
