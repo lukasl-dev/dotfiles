@@ -15,4 +15,6 @@
     layout = "de";
     xkbVariant = "";
   };
+
+  xdg.autostart.enable = true;
 }
