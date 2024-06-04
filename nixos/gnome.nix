@@ -11,8 +11,5 @@
     desktopManager = {
       gnome.enable = true;
     };
-
-    layout = "de";
-    xkbVariant = "";
   };
 }

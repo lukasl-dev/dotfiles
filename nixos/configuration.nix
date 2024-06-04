@@ -14,7 +14,9 @@
       ./opengl.nix
       ./nvidia.nix
       ./environment.nix
-      ./gnome.nix
+      ./dconf.nix
+      # ./gnome.nix
+      ./hyprland.nix
       ./sound.nix
       ./docker.nix
       ./fonts.nix
@@ -82,6 +84,15 @@
     minecraft
     lutris
     wineWowPackages.waylandFull
+
+    (pkgs.waybar.overrideAttrs (oldAttrs: {
+                                mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
+                                })
+    )
+    swaybg
+    dunst
+    libnotify
+    rofi-wayland
   ];
 
   programs.hyprland.enable = true;
@@ -109,5 +120,9 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.11"; # Did you read the comment?
+
+  services.xserver.enable = true;
+  services.xserver.layout = "de";
+  services.xserver.xkbVariant = "";
 }
 
