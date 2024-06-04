@@ -5,6 +5,7 @@
     enable = true;
     libraries = with pkgs; [
       libGL
+      libglvnd
     ];
   };
 }

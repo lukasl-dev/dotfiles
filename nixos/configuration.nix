@@ -35,12 +35,14 @@
   environment.systemPackages = with pkgs; [
     git
     zig
+    zulu
     obsidian
     wezterm
     nodejs
     bun
     go
     python3
+    wl-clipboard
     alacritty
     ripgrep
     brave
@@ -81,6 +83,8 @@
     lutris
     wineWowPackages.waylandFull
   ];
+
+  programs.hyprland.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
